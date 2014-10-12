@@ -29,5 +29,6 @@ plotreadfile <- function(name) {
 #
 savetopng <- function(name) {
     dev.copy(png, file=name, width=480, height=480, res=72) # saves png 480x480 pixels, default resolution
+#    dev.copy(png, file=name) # saves png 480x480 pixels, default resolution
     dev.off()
 }
