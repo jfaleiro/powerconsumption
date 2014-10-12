@@ -4,7 +4,7 @@
 # 
 # common functions for plotting exercises
 #
-
+#par(cex=0.20)
 #
 # reads file
 #

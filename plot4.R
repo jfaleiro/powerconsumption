@@ -14,7 +14,7 @@ with(d, {
     points(DateTime, Sub_metering_2, type='l', col='red')
     points(DateTime, Sub_metering_3, type='l', col='blue')
     # adds legend, don't know a way to derive this automatically from points, so spelling it out...    
-    legend("topright", c('Sub_metering_1','Sub_metering_2','Sub_metering_3'), col=c('black', 'red', 'blue'), lwd=1, cex=0.25)
+    legend("topright", c('Sub_metering_1','Sub_metering_2','Sub_metering_3'), col=c('black', 'red', 'blue'), lwd=1, cex=0.2)
     # plot 2,2
     plot(DateTime, Global_reactive_power, xlab='datetime', type='l') 
 })

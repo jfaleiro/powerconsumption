@@ -91,6 +91,8 @@ date. There should be four PNG files and four R code files.
 
 The four plots that you will need to construct are shown below. 
 
+NOTE: they WILL look different, the baselines are provided in 504 x 504 pixels, while the instructions asked us to provide results in different dimension, 480 x 480
+
 
 ### Plot 1
 
